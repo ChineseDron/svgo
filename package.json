@@ -1,6 +1,6 @@
 {
   "name": "svgo",
-  "version": "0.4.5",
+  "version": "0.6.1",
   "description": "Nodejs-based tool for optimizing SVG vector graphics files",
   "keywords": [ "svgo", "svg", "optimize", "minify" ],
   "homepage": "https://github.com/svg/svgo",
@@ -39,24 +39,23 @@
     "test": "make test"
   },
   "dependencies": {
-    "sax": "~0.6.0",
-    "coa": "~0.4.0",
-    "js-yaml": "~2.1.0",
-    "colors": "~0.6.0",
-    "whet.extend": "~0.9.9"
+    "sax": "~1.1.5",
+    "coa": "~1.0.1",
+    "js-yaml": "~3.5.3",
+    "colors": "~1.1.2",
+    "whet.extend": "~0.9.9",
+    "mkdirp": "~0.5.1",
+    "csso": "~1.6.1"
   },
   "devDependencies": {
-    "mocha": "~1.14.0",
-    "should": "~2.1.0",
-    "istanbul": "~0.2.0",
+    "mocha": "~2.4.5",
+    "should": "8.2.2",
+    "istanbul": "~0.4.2",
     "mocha-istanbul": "~0.2.0",
-    "coveralls": "~2.11.1"
+    "coveralls": "~2.11.8"
   },
   "engines": {
-    "node": ">=0.8.0"
+    "node": ">=0.10.0"
   },
-  "licenses": [{
-      "type": "MIT",
-      "url": "https://raw.github.com/svg/svgo/master/LICENSE"
-  }]
+  "license": "MIT"
 }
